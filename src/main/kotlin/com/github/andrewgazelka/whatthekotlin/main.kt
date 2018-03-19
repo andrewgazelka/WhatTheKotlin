@@ -1,3 +1,5 @@
+package com.github.andrewgazelka.whatthekotlin
+
 import java.math.BigInteger
 
 /*
@@ -27,7 +29,7 @@ fun main(args: Array<String>)
 
 tailrec fun fibonachi(a: BigInteger, b: BigInteger, n: BigInteger): BigInteger
 {
-    return if ( n == BigInteger.ZERO) a else fibonachi(b,a+b,n - BigInteger.ONE)
+    return if ( n == BigInteger.ZERO) a else fibonachi(b, a + b, n - BigInteger.ONE)
 }
 
 fun factorial(a: BigInteger): BigInteger
